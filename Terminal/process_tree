@@ -1,0 +1,126 @@
+// Process Tree
+digraph {
+	1 [label="PID: 1
+Cmd: systemd
+0" color=black]
+	1 -> 434
+	1 -> 452
+	1 -> 489
+	1 -> 618
+	1 -> 645
+	1 -> 650
+	1 -> 716
+	1 -> 717
+	1 -> 798
+	1 -> 804
+	1 -> 848
+	1 -> 872
+	1 -> 921
+	1 -> 922
+	1 -> 944
+	1 -> 1001
+	1 -> 1011
+	1 -> 1040
+	1 -> 7177
+	434 [label="PID: 434
+Cmd: systemd-journal
+0" color=red]
+	452 [label="PID: 452
+Cmd: multipathd
+0" color=black]
+	489 [label="PID: 489
+Cmd: systemd-udevd
+0" color=black]
+	618 [label="PID: 618
+Cmd: systemd-network
+0" color=black]
+	645 [label="PID: 645
+Cmd: systemd-resolve
+0" color=black]
+	650 [label="PID: 650
+Cmd: systemd-timesyn
+0" color=black]
+	716 [label="PID: 716
+Cmd: VGAuthService
+0" color=black]
+	717 [label="PID: 717
+Cmd: vmtoolsd
+0" color=black]
+	798 [label="PID: 798
+Cmd: systemd-logind
+0" color=black]
+	804 [label="PID: 804
+Cmd: dbus-daemon
+0" color=black]
+	848 [label="PID: 848
+Cmd: polkitd
+0" color=black]
+	872 [label="PID: 872
+Cmd: udisksd
+0" color=black]
+	921 [label="PID: 921
+Cmd: unattended-upgr
+0" color=black]
+	922 [label="PID: 922
+Cmd: rsyslogd
+0" color=black]
+	944 [label="PID: 944
+Cmd: ModemManager
+0" color=black]
+	1001 [label="PID: 1001
+Cmd: cron
+0" color=black]
+	1011 [label="PID: 1011
+Cmd: login
+0" color=black]
+	1011 -> 7734
+	7734 [label="PID: 7734
+Cmd: bash
+4" color=red]
+	1040 [label="PID: 1040
+Cmd: sshd
+0" color=black]
+	1040 -> 8067
+	8067 [label="PID: 8067
+Cmd: sshd
+25" color=red]
+	8067 -> 8114
+	8114 [label="PID: 8114
+Cmd: sshd
+24288" color=red]
+	8114 -> 8115
+	8115 [label="PID: 8115
+Cmd: bash
+24290" color=red]
+	8115 -> 8362
+	8362 [label="PID: 8362
+Cmd: mishell
+24290" color=red]
+	8362 -> 8363
+	8363 [label="PID: 8363
+Cmd: sh
+24316" color=red]
+	8363 -> 8364
+	8364 [label="PID: 8364
+Cmd: sudo
+24318" color=red]
+	8364 -> 8365
+	8365 [label="PID: 8365
+Cmd: sudo
+24318" color=red]
+	8365 -> 8366
+	8366 [label="PID: 8366
+Cmd: insmod
+24325" color=red]
+	7177 [label="PID: 7177
+Cmd: systemd
+0" color=black]
+	7177 -> 7178
+	7177 -> 7750
+	7178 [label="PID: 7178
+Cmd: (sd-pam)
+23580" color=red]
+	7750 [label="PID: 7750
+Cmd: dbus-daemon
+23580" color=black]
+}
