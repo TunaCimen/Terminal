@@ -4,6 +4,8 @@ It is a functional terminal made for the 2024 Spring Comp304 course in Koc Unive
 Summary.
 Supports autocomplete, piping. Includes a custom kernel module that can visualize the children of a given process ID.
 
+NOTE: For detailed explanation of the features and how are they implemented, check the report pdf.
+
 
 Features
 
